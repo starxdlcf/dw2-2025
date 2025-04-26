@@ -43,15 +43,52 @@
 
 // EX 10
 
-const arr = ["banana", "catapulta", "alho", "dedicatória", "uva", "sonho"]
+// const arr = ["mamão", "melancia", "abacaxi", "jaca", "melão", "morango"];
 
-// for(let i=0; i< arr.length; i++, ultimonum=x){
-//     let ultimonum = arr[0].length
-//     x = arr[i].length
-    
+// arr.sort(function(x, y) {
+//     return x.length - y.length;
+// });
+
+// console.log(arr);
+
+// // ex 6
+
+// const v1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// // letra A
+// const v2 = [];
+// for (let i = 0; i < v1.length; i++) {
+//     if (v1[i] % 2 == 0) {
+//         v2.push(v1[i]);
+//     }
 // }
+// console.log("Pares com for:", v2); // [2, 4, 6, 8, 10]
+
+// // letra B
+// const v3 = v1.filter(num => num % 2 == 0);
+// console.log("Pares com filter:", v3); // [2, 4, 6, 8, 10]
 
 
+// ex 12
 
-palavras.sort((a,b) => b.length - a.length)
-console.log(arr); // ["uva", "kiwi", "maçã", "banana", "morango", "abacaxi"]
+function encontrarMenorValor(arr) {
+    let menor = arr[0];
+    let posicao = 0;
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] < menor) {
+            menor = arr[i];
+            posicao = i;
+        }
+    }
+
+    console.log("Menor valor:", menor);
+    console.log("Posicao:", posicao);
+}
+
+const vetor = [1, 2, 3, 4, -5, 6, 7, 8, 9, 10];
+encontrarMenorValor(vetor);
+
+// Saída:
+// Menor valor: -5
+// Posicao: 4
