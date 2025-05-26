@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Livros</title>
+
+    <link rel="stylesheet" href="stile.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1 class="titulo">BiblioData</h1>
+    <h3 class="titulo">Busque informações sobre seu livro!</h3>
+
+    <div id="divInput">
+        <input id="ibsn" type="number" placeholder=" insira o código do isbn">
+        <button onclick="buscarLivro()">enter</button>
+    </div>
+
+    <div id="dados">
+        <h5>Título:</h5> 
+        <p id="titulo-isbn"></p>
+        <h5>Autor(es):</h5> 
+        <p id="autor"></p>
+        <h5>Nº de páginas:</h5> 
+        <p id="pag"></p>
+        <h5>Ano de Publicação:</h5> 
+        <p id="public"></p>
+        <h5>Sinopse</h5> 
+        <p id="sinopse"></p>
+    </div>
+    
+</body>
+</html>

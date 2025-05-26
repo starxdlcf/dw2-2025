@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 198, 245);
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+    color: darkslateblue;
+}
+
+#divInput{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: darkviolet;
+}
+
+input::placeholder{
+    background-color: rgba(148, 0, 211, 0);
+    color: beige;
+}
+
+input:hover::placeholder{
+    color: darkviolet;
+    background-color: beige; 
+}
+
+input:hover{
+    background-color: beige;
+}
+
+button{
+    width: 35px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
