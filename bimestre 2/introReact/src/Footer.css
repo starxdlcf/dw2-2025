@@ -1,0 +1,21 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(82, 125, 204);
+    color: white;
+}
