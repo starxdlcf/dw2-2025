@@ -1,0 +1,16 @@
+div button{
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    margin-top: 6px;
+}
+
+div button.Incremento{
+    background-color: chartreuse;
+}
+
+div button.Decremento{
+    background-color: crimson;
+}

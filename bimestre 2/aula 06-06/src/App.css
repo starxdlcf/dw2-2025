@@ -1,0 +1,29 @@
+#root {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#bolinha, #bolona{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  left: 0;
+}
+
+#bolinha{
+  background-image: url(/public/stipling_dots_background-removebg-preview.png);
+}
+
+#bolona{
+  background-image: url(/public/bolasfaltando.png);
+  
+
+}
